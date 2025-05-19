@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  object-fit: cover;
+  font-family: "Roboto", sans-serif;
+}
+
+main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+input {
+  padding: 10px;
+  font-size: 1.5rem;
+  border: none;
+  outline: none;
+}
+
+button {
+  height: 49px;
+  font-size: 1.5rem;
+  padding: 0px 10px;
+  cursor: pointer;
+  background-color: #ffe1e0;
+  border: none;
+  border-radius: 10px;
+  transition: all 0.15s ease;
+  color: #7f55b1;
+}
+
+button:hover {
+  background-color: #f49bab;
+  color: white;
+}
+
+body {
+  color: #ffe1e0;
+}
+
+h2 {
+  padding-top: 15px;
+  font-size: 1rem;
+}
+
+h3 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: white;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #7f55b1;
+  max-width: 480px;
+  min-width: 480px;
+  width: 100%;
+  border-radius: 15px;
+  overflow: hidden;
+  padding: 15px;
+}
+
+.input-container {
+  padding: 15px 0;
+}
+
+.status-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: 15px;
+}
+
+.status-container .status {
+  background-color: #9b7ebd;
+  padding: 15px 10px;
+  color: #ffe1e0;
+}
+
+.status p {
+  text-align: center;
+}

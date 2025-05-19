@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/weather-app.css" />
+    <title>Weather App</title>
+  </head>
+  <body>
+    <main>
+      <div class="app-container">
+        <h1>Weather App</h1>
+        <div class="input-container">
+          <input type="text" placeholder="Enter city name" class="input-city" />
+          <button>Get Weather</button>
+        </div>
+        <img
+          src=""
+          alt="weather description icon"
+          class="js-description-icon"
+        />
+        <h2 class="city-name js-city-name">Iponan</h2>
+        <h3 class="temp js-temp">30℃</h3>
+        <p class="weather-description js-weather-description">Light rain</p>
+        <div class="status-container">
+          <div class="status">
+            <p class="js-feels-status">Feels like: 12℃</p>
+          </div>
+          <div class="status js-humidity-status">
+            <p class="js-humidity-status">Humidity: 92%</p>
+          </div>
+          <div class="status js-wind-status">
+            <p class="js-wind-status">Wind speed: 8.75m/s</p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer></footer>
+    <script type="module" src="script/main-weather.js"></script>
+  </body>
+</html>
